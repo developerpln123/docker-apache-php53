@@ -1,0 +1,264 @@
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.style2 {
+	font-family: Tahoma;
+	text-decoration:none;
+}
+
+.style_link{
+	font-family: Calibri;
+	font-size: 22px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+img.home{
+	height:15%;
+	width:100%;
+}
+
+td.home{
+	vertical-align:top;
+	text-align: left;
+}
+
+tr.form_login{
+	vertical-align:top;
+	height:30px;
+}
+
+tr.form_upload{
+	vertical-align:top;
+	height:50px;
+}
+
+.input_width{
+	width:400px;
+}
+
+span.index_area {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:30px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+td.index_area{
+	font-family: Tahoma;
+	background-color:#d1d1e0;
+	vertical-align:top;
+	text-align: left;
+}
+p.index_area {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+img.index_area{
+	float:left;
+	width:20%;
+	height:30%;
+}
+
+span.index_area_bulan {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:30px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+li.index_area_bulan {
+	text-decoration:none;
+}
+
+p.index_area_bulan {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:22px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+p.index_area_bulan_judul {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+p.index_area_bulan_tanggal {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:14px;;
+}
+p.index_area_bulan_isi {
+	font-family: Tahoma;
+	text-decoration:none;
+	font-size:12px;;
+}
+
+table
+{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";
+	font-size: 12px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	color: #FFFFFF;
+	background-color: #006600;
+	border-top-width: 4px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #003300;
+	border-bottom-color: #fff;
+}
+#box-table-a td
+{
+	padding: 8px;
+	border-bottom: 1px solid #fff;
+	color: #3A5B04;
+	border-top: 1px solid transparent;
+	background-color: #FFFFFF;
+}
+#box-table-a tr:hover td
+{
+	color: #3F5719;
+	background-color: #82C112;
+}
+
+.container{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.add label{
+	color:#009688;
+	padding: 20px;
+}
+
+
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  }
+label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  }
+
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+/*====================*/
+/*=== Reset Styles ===*/
+/*====================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+body {
+	line-height:1;
+	color:black;
+	background:white;
+}
+table {
+	border-collapse:separate;
+	border-spacing:0;
+}
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:"";
+}
+blockquote, q {
+	quotes:"" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+body {
+	font:14px/1.6 Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	color:#333;
+	background:#eee;
+}
+
+a, a:visited {
+	color:blue;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+.slider-wrapper { 
+	width: 75%; 
+	
+	margin: auto;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

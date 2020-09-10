@@ -16,6 +16,7 @@ RUN apt-get update && \
 
 COPY apache_default /etc/apache2/sites-available/default
 COPY run /usr/local/bin/run
+COPY portal /var/www
 RUN chmod +x /usr/local/bin/run
 RUN a2enmod rewrite
 

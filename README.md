@@ -54,3 +54,4 @@ Configurations
 * php.ini:
   * display_errors = On
   * error_reporting = E_ALL & ~E_DEPRECATED & ~E_NOTICE (default, overridable per env variable)
+# portal

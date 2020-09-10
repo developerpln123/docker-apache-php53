@@ -1,0 +1,246 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General page setup
+ */
+#dt_example {
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #fff;
+}
+
+
+#dt_example #container {
+	width: 940px;
+	margin: 20px auto;
+	padding: 0;
+	background-color: #fff;
+	border: thin solid #CCCCCC;
+}
+
+#dt_example #header {
+	padding: 0px;
+	background-image: url(../../images/img_header.png);
+	height: 160px;
+	width: 940px;
+}
+
+#dt_example #menu {
+	color: #FFFFFF;
+	padding: 0px;
+	background-color: #414141;
+	height: 25px;
+}
+
+#dt_example #footer {
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 20;
+	padding-left: 0;
+}
+
+#dt_example #demo {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#dt_example .demo_jui {
+	margin: 30px auto 0 auto;
+}
+
+#dt_example .big {
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.6em;
+	color: #4E6CA3;
+}
+
+#dt_example .spacer {
+	height: 20px;
+	clear: both;
+}
+
+#dt_example .clear {
+	clear: both;
+}
+
+#dt_example pre {
+	padding: 15px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+#dt_example h1 {
+	margin-top: 2em;
+	font-size: 1.3em;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #4E6CA3;
+	border-bottom: 1px solid #B0BED9;
+	clear: both;
+}
+
+#dt_example h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #4E6CA3;
+	clear: both;
+}
+
+
+.css_right {
+	float: right;
+}
+
+.css_left {
+	float: left;
+}
+
+.demo_links {
+	float: left;
+	width: 50%;
+	margin-bottom: 1em;
+}
+
+#demo_info {
+	padding: 5px;
+	border: 1px solid #B0BED9;
+	height: 100px;
+	width: 100%;
+	overflow: auto;
+}
+
+ ._css_font_default_link_11{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:visited{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:hover{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #138cdd;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:active{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #005a88;  
+	text-decoration: none;   
+}
+
+fieldset {
+	border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+	border: 1px solid #999999;
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+	background: #FBFBFB;
+
+}
+
+legend {
+	background: #FF9;
+	border: solid 1px black;
+	border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+	padding: 2px;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+select {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #F9F9F0; 
+	padding: 2px 3px 4px 5px;
+}
+
+select:hover {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFF2; 
+	padding: 2px 3px 4px 5px;
+}
+
+select:focus {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFCC; 
+	padding: 2px 3px 4px 5px;
+}
+
+._css_input_text{
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #F9F9F0; 
+	padding: 2px 3px 4px 5px;
+}
+._css_input_text:hover {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFF2; 
+	padding: 2px 3px 4px 5px;
+}
+
+._css_input_text:focus {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFCC; 
+	padding: 2px 3px 4px 5px;
+}
+
+._error_msg {
+	background-color: #ffbaba;
+	border: 1px solid #d8000c;
+	font-style:italic;
+	font-size: 11px;
+	color: #A00000;
+	padding: 7px 10px; 
+	margin-bottom: 10px;
+}
+
+._close {
+	cursor:pointer;
+	font-style:normal;
+	float:right;
+}

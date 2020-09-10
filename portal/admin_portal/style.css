@@ -1,0 +1,43 @@
+a:link {
+	text-decoration: none;
+	color: #0033FF;
+} 
+a:visited {
+	text-decoration: none;
+	color: #0033FF;
+}
+
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";
+	font-size: 12px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	color: #FFFFFF;
+	background-color: #006600;
+	border-top-width: 4px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #003300;
+	border-bottom-color: #fff;
+}
+#box-table-a td
+{
+	padding: 8px;
+	border-bottom: 1px solid #fff;
+	color: #3A5B04;
+	border-top: 1px solid transparent;
+	background-color: #FFFFFF;
+}
+#box-table-a tr:hover td
+{
+	color: #3F5719;
+	background-color: #82C112;
+}
